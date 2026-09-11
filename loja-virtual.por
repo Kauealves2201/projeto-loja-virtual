@@ -38,8 +38,21 @@ programa {
         escreva("=== BEM-VINDO Á NOSSA LOJA VIRTUAL ===")
         escreva("-------MENU PRINCIPAL-------")
 
+    //colar a terceira parte aqui
 
+    escreva("1. Ver Produtos e Adicionar ao carrinho (CREATE)")      
+         escreva("2. Ver meus itens no Carrinho (READ)")
+         escreva("3. Alterar Quantidade no Carrinho (UPDATE)")
+         escreva("4. Remover Item do Carrinho (DELETE)")
+         escreva("0. Finalizar Compra e ir ao Pagamento")
+         escreva("Escolha uma opção: ")
+         leia(opcao_menu_principal)
 
-
- }
-}
+         escolha (opcao_menu_principal)
+         {
+              // =============================================
+              // C - CREATE (Adicionar Itens ao Carrinho)
+              // =============================================
+         }
+         }
+         }
