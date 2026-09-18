@@ -124,4 +124,21 @@ programa {
                 // ===============================================
 
 
-        //colar a oitavo parte aqui
+        //colar a oitava parte aqui
+
+              escreva("Pressione ENTER para voltar ao menu...")
+			        leia(tecla_pausa)
+			              pare
+
+	
+			        limpa()
+			        escreva("Encerrando seleção de itens e indo para o pagamento...")
+			             pare
+			        limpa()
+			        escreva("Opção inválida! Escolha uma das opções do menu.")
+              
+              
+              
+              
+              
+        escreva("Pressione ENTER para continuar...")
