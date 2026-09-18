@@ -56,7 +56,7 @@ programa {
 }
         //colar a quarta parte aqui
 
-                    caso 1:
+                
                       limpa()
                       escreva("--- CATÁLOGO DE PRODUTOS ---\n")
                       escreva("1. Camisa Esportiva (Estoque: ", estoque_prod1, ") - R$ ", preco)
@@ -77,22 +77,51 @@ programa {
 
                       escreva("Pressione ENTER para voltar ao menu...")
                     leia(tecla_pausa)
-}                 pare
+}                     pare
 
         //colar a quinta parte aqui
 
                        //=======================================
                           // R - READ (Visualizar o Carrinho)
                           // ======================================
-                      caso 2 : 
+                      
                              limpa()
                               escreva("--- MEU CARRINHO DE COMPRAS ---")
                               escreva("pressione enter para voltar ao menu...")
                              leia(tecla_pausa)   
-                  pare
+                      pare
 
          //colar a sexta parte aqui
 
+                          // ====================================================== 
+                          // U - UPDATE ( ATUALIZAR QUANTIDADE NO CARRINHO )
+                          // ====================================================== 
+                     
+                             limpa()
+              escreva("--- ALTERAR QUANTIDADE NO CARRINHO ---")
+              escreva("1. Camisa esportiva (No carrinho : ", qtd_carrinho_prod1, )")
+              escreva("2. Bone casual  (No carrinho : ", qtd_carrinho_prod2, )")
+              escreva("3. tenis de corrida (No carrinho : ", qtd_carrinho_prod3, )")
+              escreva("Pressione ENTER para voltar ao menu...")
+			        leia(tecla_pausa)
+			                pare
+        
+        //colar a setima parte aqui
+
+              escreva("Quantidade inválida ou acima do estoque disponível!")
+		                    
+	                  
+	                  senao {
+		          escreva("Opção inválida!")
+	                  }
+
+	            escreva("Pressione ENTER para voltar ao menu...")
+	            leia(tecla_pausa)
+	                  pare
+
+                // ===============================================
+                // D - DELETE (Remover Item do Carrinho)
+                // ===============================================
 
 
-
+        //colar a oitavo parte aqui
