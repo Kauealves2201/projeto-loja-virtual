@@ -78,3 +78,21 @@ programa {
                       escreva("Pressione ENTER para voltar ao menu...")
                     leia(tecla_pausa)
 }                 pare
+
+        //colar a quinta parte aqui
+
+                       //=======================================
+                          // R - READ (Visualizar o Carrinho)
+                          // ======================================
+                      caso 2 : 
+                             limpa()
+                              escreva("--- MEU CARRINHO DE COMPRAS ---")
+                              escreva("pressione enter para voltar ao menu...")
+                             leia(tecla_pausa)   
+                  pare
+
+         //colar a sexta parte aqui
+
+
+
+
