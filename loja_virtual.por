@@ -19,7 +19,7 @@ programa {
         inteiro qtd_carrinho_prod1 = 0
         inteiro qtd_carrinho_prod2 = 0
 
-        //colar a segunda parte aqui
+        //colar a 2 parte aqui
         inteiro qtd_carrinho_prod3 = 0
 
         // Variáveis auxiliares para operações
@@ -36,7 +36,7 @@ programa {
           escreva("=== BEM-VINDO Á NOSSA LOJA VIRTUAL ===")
           escreva("-------MENU PRINCIPAL-------")
 
-          //colar a terceira parte aqui
+          //colar a 3 parte aqui
 
           escreva("1. Ver Produtos e Adicionar ao carrinho (CREATE)")      
           escreva("2. Ver meus itens no Carrinho (READ)")
@@ -54,7 +54,7 @@ programa {
         }
           } 
 }
-        //colar a quarta parte aqui
+        //colar a 4 parte aqui
 
                 
                       limpa()
@@ -79,7 +79,7 @@ programa {
                     leia(tecla_pausa)
 }                     pare
 
-        //colar a quinta parte aqui
+        //colar a 5 parte aqui
 
                        //=======================================
                           // R - READ (Visualizar o Carrinho)
@@ -89,9 +89,9 @@ programa {
                               escreva("--- MEU CARRINHO DE COMPRAS ---")
                               escreva("pressione enter para voltar ao menu...")
                              leia(tecla_pausa)   
-                      pare
+                    pare
 
-         //colar a sexta parte aqui
+         //colar a 6 parte aqui
 
                           // ====================================================== 
                           // U - UPDATE ( ATUALIZAR QUANTIDADE NO CARRINHO )
@@ -106,7 +106,7 @@ programa {
 			        leia(tecla_pausa)
 			                pare
         
-        //colar a setima parte aqui
+        //colar a 7 parte aqui
 
               escreva("Quantidade inválida ou acima do estoque disponível!")
 		                    
@@ -124,7 +124,7 @@ programa {
                 // ===============================================
 
 
-        //colar a oitava parte aqui
+        //colar a 8 parte aqui
 
               escreva("Pressione ENTER para voltar ao menu...")
 			        leia(tecla_pausa)
@@ -141,4 +141,52 @@ programa {
               
               
               
-        escreva("Pressione ENTER para continuar...")
+              escreva("Pressione ENTER para continuar...")
+              leia(tecla_pausa)
+pare
+
+        //colar a 9 parte aqui
+
+              limpa()
+              escreva("--- ALTERAR QUANTIDADE NO CARRINHO ---\n")
+              escreva("1. Camisa Esportiva (No carrinho: ", qtd_carrinho_prod1, ")\n")
+              escreva("2. Boné Casual (No carrinho: ", qtd_carrinho_prod2, ")\n")
+              escreva("3. Tênis de Corrida (No carrinho: ", qtd_carrinho_prod3, ")\n")
+
+              escreva("\nEscolha o item para alterar a quantidade: ")
+              leia(opcao_crud)
+
+              escreva("Digite a NOVA quantidade total para este item: ")
+              leia(quantidade_temp)
+
+              se (opcao_crud == 1)
+{ 
+              se (quantidade_temp >= 0 e quantidade_temp <= (estoque_prod1 + qtd_carrinho_prod1))
+  {
+    estoque_prod1 = estoque_prod1 + qtd_carrinho_prod1
+    qtd_carrinho_prod1 = quantidade_temp
+    estoque_prod1 = estoque_prod1 - quantidade_temp
+              escreva("\nQuantidade atualizada com sucesso!")
+  }
+
+        //colar a 10 parte aqui
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
