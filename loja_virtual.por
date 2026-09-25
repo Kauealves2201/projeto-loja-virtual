@@ -228,4 +228,25 @@ pare
                   estoque_prod3 = estoque_prod3 - qtd_carrinho_prod3
             }
 
+       //colar a 13 parte aqui
 
+            escreva ("quantidade invalida ou acima do estoque disponivel!")
+
+  }
+
+
+            }senao {
+            escreva("opção invalida!")
+
+}
+
+            escreva("pressione ENTER para voltar ao menu...")
+            leia(tecla_pausa)
+pare
+
+// ======================================================
+// D - DELETE (Remover Item do Carrrinho)
+// ======================================================
+
+  }
+}
