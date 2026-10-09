@@ -293,5 +293,22 @@ pare
 
       //colar a parte 16 aqui
       
+       escreva("Pressione ENTER para voltar ao menu...")
+   leia(tecla_pausa)
+   pare
+
+
+   caso 0:
+       limpa()
+       escreva("Encerrando seleção de itens e indo para o pagamento...")
+       pare
+   caso contrario:
+       limpa()
+       escreva("Opção inválida! Escolha uma das opções o menu.")
+       escreva("Pressione ENTER para continuar...")
+
+       //colar a parte 17 aqui
+
+       
       
       
