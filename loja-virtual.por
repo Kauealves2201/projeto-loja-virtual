@@ -192,7 +192,7 @@ pare
               escreva ("Quantidade invalida ou acima do estoque disponivel!")
 
         }
-      
+     { 
       }            senao se (opcao_crud == 2)
   { 
                         estoque_prod2 = estoque_prod2 + qtd_carrinho_prod2
@@ -212,14 +212,16 @@ pare
 
 
 ")
+          {
              }
-        }
+     {   
+      }
         senao se (opcao_crud == 3)
         {
                   estoque_prod3 = estoque_prod3 + qtd_carrinho_prod3
             escreva("Digite NOVA quantidade total para este item: ")
             leia(quantidade_temp)
-
+        
             se (quantidade_temp >= 0 e quantidade_temp <= estoque_prod3)  {
                   qtd_carrinho_prod3 = quantidade_temp
                   estoque_prod3 = quantidade_temp
@@ -234,7 +236,7 @@ pare
 
   }
 
-
+        {
             }senao {
             escreva("opção invalida!")
 
@@ -247,6 +249,35 @@ pare
 // ======================================================
 // D - DELETE (Remover Item do Carrrinho)
 // ======================================================
-
+{
   }
+  {
 }
+
+      //colar a parte 14 aqui
+
+       senao se (opcao_crud == 2) {
+      estoque_prod2 = estoque_prod2 + qtd_carrinho_prod2
+      qtd_carrinho_prod2 = 0
+      escreva("Boné Casual removido do carrinho!")
+
+    }
+    senao se (opcao_crud == 3) {
+      estoque_prod3 = estoque_prod3 + qtd_carrinho_prod3
+      qtd_carrinho_prod3 = 0 
+      escreva("Tenis de Corrida removido do carrinho!")
+      }
+      senao {
+        escreva("Opção invalida!")
+        }
+    
+
+      //colar a parte 15 aqui
+
+      
+
+
+
+      
+      
+      
